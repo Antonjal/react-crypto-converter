@@ -44,8 +44,8 @@ function Converter() {
   };
   return (
     <div className="converter">
-      <h2>Converter</h2>
-      <div className="input-box">
+      <h2>Cryptocurrency Converter</h2>
+      <div className="input__box">
         <table>
           <tbody>
             <tr>

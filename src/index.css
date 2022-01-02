@@ -23,13 +23,49 @@ code {
 }
 
 .news__feed{
-  background-color: red;
+  background-color: rgb(247, 247, 242);
+  padding: 12px;
+  margin: 8px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  max-width: 300px;
 }
 
 .converter{
-  background-color: blue;
+  background-color: rgb(129, 163, 127);
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  text-align: center;
 }
 
 .exchange__rate{
-  background-color: green;
+  background-color: rgb(198, 230, 55);
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 10px;
+}
+
+.input__box {
+  background-color: rgb(252, 239, 56);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+button {
+  border: none;
+  float: right;
+  margin: 4px;
+  padding: 3px;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: black;
+  color: aliceblue;
+}
+
+input, select {
+  border: none;
 }
