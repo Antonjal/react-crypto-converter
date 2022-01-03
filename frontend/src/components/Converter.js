@@ -18,7 +18,7 @@ function Converter() {
   const convert = () => {
     var options = {
       method: "GET",
-      url: "http://localhost:8000/convert",
+      url: "https://crypto-converter-backend.onrender.com/convert",
       params: {
         from_currency: selectedPrimaryCurrency,
         function: "CURRENCY_EXCHANGE_RATE",
