@@ -7,7 +7,7 @@ function NewsFeed() {
   useEffect(() => {
     var options = {
       method: "GET",
-      url: "http://localhost:8000/news",
+      url: "https://crypto-converter-backend.onrender.com/news",
     };
 
     axios
