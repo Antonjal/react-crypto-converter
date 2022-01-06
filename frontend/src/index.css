@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -12,60 +12,161 @@ code {
     monospace;
 }
 
-.app{
+.app {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  margin-top: 1.875em;
+  padding: 2em;
 }
 
 .app__wrapper{
   display: flex;
+  justify-content: center;
+  border: black 0.3125em solid;
+  border-radius: 0.3125em;
+  padding: 0.625em;
 }
 
 .news__feed{
-  background-color: rgb(247, 247, 242);
-  padding: 12px;
-  margin: 8px;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-  max-width: 300px;
+  background-color: #a2b722;
+  padding: 1.25em;
+  margin: 0.3125em;
+  box-shadow: 0 0.1875em 0.625em rgb(0 0 0 / 0.2);
+  max-width: 25em;
+  min-width: 15em;
+  border-radius: 0.625em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover, a:focus {
+  color: darkgreen;
+}
+
+.explain {
+  color: white;
+  background-color: black;
+  margin-left: 1.25em;
+  max-width: 25em;
+  min-width: 15em;
+  padding: 1.25em;
+  box-shadow: 0 0.1875em 0.625em rgb(0 0 0 / 0.2);
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  border-radius: 0.625em;
+}
+
+.explain p {
+  padding: 1.25em;
 }
 
 .converter{
-  background-color: rgb(129, 163, 127);
-  padding: 10px;
-  margin: 5px;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  background-color: #58830b;
+  padding: 1.25em;
+  margin: 0.3125em;
+  box-shadow: 0 0.1875em 0.625em rgb(0 0 0 / 0.2);
   text-align: center;
+  align-content: center;
+  justify-content: center;
+  border-radius: 0.625em;
+}
+
+h2 {
+  color: white;
 }
 
 .exchange__rate{
   background-color: rgb(198, 230, 55);
-  padding: 20px;
-  margin-top: 10px;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-  border-radius: 10px;
+  padding: 1.25em;
+  margin-top: 0.625em;
+  box-shadow: 0 0.1875em 0.625em rgb(0 0 0 / 0.2);
+  border-radius: 0.625em;
 }
 
+
 .input__box {
+  margin: 2.5em 0;
   background-color: rgb(252, 239, 56);
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 1.25em;
+  border-radius: 0.625em;
+  box-shadow: 0 0.1875em 0.625em rgb(0 0 0 / 0.2);
 }
 
 button {
+  background-image: linear-gradient(to right, #16A085 0%, #F4D03F  51%, #16A085  100%);
+  margin-top: 0.625em;
+  padding: 0.9375em 2.5em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 0.625em;
   border: none;
-  float: right;
-  margin: 4px;
-  padding: 3px;
-  border-radius: 8px;
 }
 
-button:hover {
-  background-color: black;
-  color: aliceblue;
+button:hover, button:focus {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+tr {
+  text-align: left;
+}
+
+input {
+  padding: 0.5em;
+  margin: 0.125em;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 0.3125em;
+}
+
+select {
+  padding: 0.375em;
+  margin: 0.125em;
+  border-radius: 0.3125em;
 }
 
 input, select {
   border: none;
 }
+
+@media (max-width: 64.5em) {
+  .app {
+    flex-direction: column;
+  }
+  .explain {
+    order: 1;
+    margin: 0;
+    padding: 0;
+    max-width: none;
+  }
+  .app__wrapper {
+    order: 2;
+    border: none;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .input__box {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+  .news__feed {
+    max-width: none;
+  }
+}
+
+
+
+
