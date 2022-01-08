@@ -162,6 +162,9 @@ input, select {
     justify-items: center;
     align-items: center;
   }
+  td {
+    display: flex;
+  }
   .news__feed {
     max-width: none;
   }
