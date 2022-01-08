@@ -164,6 +164,7 @@ input, select {
   }
   td {
     display: flex;
+    flex-direction: column;
   }
   .news__feed {
     max-width: none;
