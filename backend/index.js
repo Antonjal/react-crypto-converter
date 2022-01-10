@@ -36,9 +36,9 @@ app.get('/convert', (req,res) => {
 app.get('/news', (req,res) => {
     var options = {
         method: "GET",
-        url: "https://crypto-news-live.p.rapidapi.com/news",
+        url: "https://crypto-news6.p.rapidapi.com/news",
         headers: {
-          "x-rapidapi-host": "crypto-news-live.p.rapidapi.com",
+          "x-rapidapi-host": "crypto-news6.p.rapidapi.com",
           'x-rapidapi-key': process.env.REACT_APP_RAPID_API_KEY
         },
       };
