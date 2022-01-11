@@ -14,7 +14,6 @@ code {
 
 .app {
   display: flex;
-  flex-direction: row;
   align-content: center;
   justify-content: center;
   margin-top: 1.875em;
@@ -24,8 +23,6 @@ code {
 .app__wrapper{
   display: flex;
   justify-content: center;
-  border: black 0.3125em solid;
-  border-radius: 0.3125em;
   padding: 0.625em;
 }
 
@@ -46,24 +43,6 @@ a {
 
 a:hover, a:focus {
   color: darkgreen;
-}
-
-.explain {
-  color: white;
-  background-color: black;
-  margin-left: 1.25em;
-  max-width: 25em;
-  min-width: 15em;
-  padding: 1.25em;
-  box-shadow: 0 0.1875em 0.625em rgb(0 0 0 / 0.2);
-  text-align: center;
-  align-content: center;
-  justify-content: center;
-  border-radius: 0.625em;
-}
-
-.explain p {
-  padding: 1.25em;
 }
 
 .converter{
@@ -140,17 +119,8 @@ input, select {
 }
 
 @media (max-width: 64.5em) {
-  .app {
-    flex-direction: column;
-  }
-  .explain {
-    order: 1;
-    margin: 0;
-    padding: 0;
-    max-width: none;
-  }
+ 
   .app__wrapper {
-    order: 2;
     border: none;
     flex-direction: column;
     margin: 0;
