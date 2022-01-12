@@ -3,7 +3,7 @@
 ## To view a live deployed version of this project please visit the following link:
 #### https://crypto-converter-frontend.onrender.com/
 
-1. To get the project up and running on your machine, please refer to the **README file** in the **backend** and **frontend** folders respectively
+1. To get the project up and running on your machine, please refer to the **README file** in the **backend** and **frontend** folders respectively. Start with the **backend** first
 2. The technologies and frameworks utilized on the **frontend** side of the project consist of **HTML**, **CSS**, **MaterialUI**, **React.js**, 
 **<a href="https://rapidapi.com/atefy410@gmail.com/api/crypto-news6/">Crypto News API</a>** and **<a href="https://rapidapi.com/alphavantage/api/alpha-vantage/">Alpha Vantage API</a>**
    - The **News Feed column** on the right side fetches the **top 10 latest news** via the **<a href="https://rapidapi.com/atefy410@gmail.com/api/crypto-news6/">Crypto News API</a>**
