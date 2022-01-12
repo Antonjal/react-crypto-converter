@@ -1,7 +1,7 @@
 # react-crypto-converter
 
-## To view a live deployed version of this project please visit the following link:
-#### https://crypto-converter-frontend.onrender.com/
+### To view a live deployed version of this project please visit the following link:
+## https://crypto-converter-frontend.onrender.com/
 
 1. To get the project up and running on your machine, please refer to the **README file** in the **backend** and **frontend** folders respectively. Start with the **backend** first
 2. The technologies and frameworks utilized on the **frontend** side of the project consist of **HTML**, **CSS**, **MaterialUI**, **React.js**, 
