@@ -5,3 +5,4 @@
 4. Rename the **.env.sample** file to **.env**
 5. Run `npm install`
 6. Run `node index.js`
+7. Now go read the instructions for in the **frontend directory**
