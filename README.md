@@ -9,4 +9,4 @@
    - The **News Feed column** on the right side fetches the **top 10 latest news** via the **<a href="https://rapidapi.com/atefy410@gmail.com/api/crypto-news6/">Crypto News API</a>**
    - The **Cryptocurrency Converter column** on the left side fetches the **current prices for the criptocurrencies** via the **<a href="https://rapidapi.com/alphavantage/api/alpha-vantage/">Alpha Vantage API</a>**
 3. The technologies, tools and frameworks utilized on the **backend** side of the project consist of **Node.js**, **Express.js**, **Axios**, **CORS** and **Dotenv**
-   - The **main objective** of the **backend** side is safely call the API withouth compromising the API credentials.
+   - The **main objective** of the **backend** side is safely calling the API withouth compromising the API credentials.
