@@ -1,6 +1,7 @@
 # react-crypto-converter
 
 ### To view a live deployment of this project please visit the following link:
+## Be patient with the news feed column. It may take a few seconds to load on your first visit
 ## https://crypto-converter-frontend.onrender.com/
 
 1. To get the project up and running on your machine, please refer to the **README files** in the **<a href="https://github.com/Antonjal/react-crypto-converter/tree/master/backend">backend</a>** and **<a href="https://github.com/Antonjal/react-crypto-converter/tree/master/frontend">frontend</a>** folders respectively. Start with the **<a href="https://github.com/Antonjal/react-crypto-converter/tree/master/backend">backend</a>** first
